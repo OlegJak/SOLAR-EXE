@@ -727,6 +727,7 @@ input{
     line-height: 19px;
     width: 510px;
     padding: 11px 11px 11px 0px;
+    border-radius: 0%;
 }
 
 .tel{
