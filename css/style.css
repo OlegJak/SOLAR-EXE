@@ -1,5 +1,6 @@
 body{
     font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 section{
@@ -165,6 +166,8 @@ nav{
 
 .section__2__col__1{
     max-width: 510px;
+    position: relative;
+    left: -2000px;
 }
 
 .section__2__p__bold{
@@ -191,7 +194,10 @@ nav{
 }
 
 
-
+.section__2__col__2{
+    position: relative;
+    opacity: 0;
+}
 
 
 
@@ -245,6 +251,8 @@ nav{
 .section__3__col__1{
     max-width: 510px;
     width: 100%;
+    position: relative;
+    left: -2000px;
 }
 
 .section__3__list{
@@ -323,6 +331,8 @@ nav{
 .section__3__col__2{
     max-width: 600px;
     margin-left: 10px;
+    position: relative;
+    right: -2000px;
 }
 
 .section__3__col__2__p{
@@ -422,6 +432,7 @@ nav{
     font-size: 42px;
     line-height: 57px;
     text-align: center;
+    opacity: 0;
 }
 
 
@@ -473,6 +484,8 @@ nav{
 .section__5__contant{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    left: -2000px;
 }
 
 .section__5__img{
@@ -723,12 +736,21 @@ input{
     background-color: transparent;
     color: #fff;
     border-bottom: 2px solid #fff;
+    border-radius: 0%;
     font-size: 20px;
     line-height: 19px;
     width: 510px;
     padding: 11px 11px 11px 0px;
-    border-radius: 0%;
 }
+
+
+
+
+
+
+
+
+
 
 .tel{
     margin-top: 60px;
@@ -1087,7 +1109,7 @@ form{
     
 .black{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.317);
+    background-color: rgba(0, 0, 0, 0.187);
     height: 100%;
     width: 100%;
     top: 0;
@@ -1190,6 +1212,10 @@ form{
     }
     .section__1__h2{
         font-size: 30px;
+    }
+    .section__4__p{
+        font-size: 30px;
+        line-height: 40px;
     }
 }
 
