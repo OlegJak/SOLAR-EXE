@@ -235,6 +235,7 @@ nav{
 
 .section__3{
     margin-top: 150px;
+    overflow: hidden;
 }
 
 .section__3__container{
