@@ -1,7 +1,8 @@
 $(function() {
     
-    $(".preloader").slideUp(700);
-
+    $(window).on('load', function() {
+        $('.preloader').slideUp(700)
+    });
 
 
     $(".left").mouseenter(function () { 
